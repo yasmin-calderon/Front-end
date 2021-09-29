@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFAF2;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #212D59;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-1 {
+  background: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+  width: 519px;
+  height: 471px;
+  padding: 17px 20px 58px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 58px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.card-1 h1 {
+  margin: 11px 50px 72px 50px;
+}
+
+.card-emotions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+.sad {
+  margin-right: 67px;
+}
+
+.neutral {
+  margin-right: 67px;
+}
+
+.sad img, .neutral img, .happy img {
+  margin-bottom: 15px;
+}
+
+.card-1 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #2F2D2C;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.btn-1 {
+  width: 208px;
+  height: 55px;
+}
+
+.card-2 {
+  background: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+  width: 402px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px 20px 35px 20px;
+}
+
+.card-2 img {
+  margin-bottom: 15px;
+}
+
+.card-2 h1 {
+  margin-bottom: 40px;
+}
+
+.card-2 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0px 40px 40px 40px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  opacity: 0.5;
+  margin-right: 34PX;
+  }
+
+.btn-2 {
+  width: 135px;
+  height: 55px;
+  margin-bottom: 35px;
+}

@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E6EFF5;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #2AB3B1;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px;
+  width: 635px;
+  font-family: 'Karla', sans-serif;
+}
+
+.join {
+  background: #FFFFFF;
+  padding: 40px;
+}
+
+.join h1 {
+  margin-bottom: 24px;
+  color: #2AB3B1;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+h2 {
+  margin-bottom: 11px;
+  color: #C0DF33;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+}
+
+.join p {
+  color: #9AA7BE;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+}
+
+.assinatura-card {
+  display: flex;
+}
+
+.assinatura {
+  padding: 40px;
+}
+
+.assinatura h1 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  letter-spacing: -0.225px;
+}
+
+.assinatura p {
+  margin-bottom: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.valores {
+  display: flex;
+  align-items: center;
+}
+
+.valor {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  margin-right: 11px;
+  margin-bottom: 4px;
+}
+
+.mes {
+  letter-spacing: -0.2px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.assinatura a {
+  text-decoration: none;
+  background: #C0DF33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 48px;
+}
+
+.sobre {
+  background: rgba(255, 255, 255, 0.15);
+  mix-blend-mode: normal;
+  padding: 40px;
+  flex-grow: 1
+}
+
+.sobre h1 {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+}
+
+.sobre p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E9EEF6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.cards {
+  background: #FFFFFF;
+  border-radius: 32px;
+  width: 1437px;
+  padding: 90px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+}
+
+ h1 {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  width: 429px;
+  padding: 35px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-1 {
+  background: #F8F2FA;
+  margin-right: 15px;
+}
+
+img {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.card-1 h1, .card-2 h1, .card-3 h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0C1727;
+  border-radius: 3px;
+  width: 226px;
+  height: 46px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.card-2 {
+  background: #FAF2F4;
+  margin-right: 15px;
+}
+
+.card-3 {
+  background: #F5F2FA;
+}

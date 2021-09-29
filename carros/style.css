@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.card {
+  display: flex;
+  width: 920px;
+  height: 500px;
+  background: #E28625;
+  border-radius: 8px;
+}
+
+.card-1 {
+  width: 307px;
+  padding: 48px;
+}
+
+img {
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+
+p {
+  margin-bottom: 83px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.btn {
+  text-decoration: none;
+  width: 146px;
+  height: 48px;
+  background: #F2F2F2;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 .btn {
+  color: #E28625;
+}
+
+.card-2 {
+  background: #006971;
+  border-radius: 8px;
+  width: 307px;
+  padding: 48px;
+}
+
+.card-2 .btn {
+  color: #006971;
+}
+
+.card-3 {
+  background: #004140;
+  border-radius: 0px 8px 8px 0px;
+  width: 307px;
+  padding: 48px;
+}
+
+.card-3 .btn {
+  color: #004140;
+}
